@@ -1,2 +1,7 @@
+var winner = winner;
+var turn = turn;
 
-function startGame() {
+function pickTurn(){
+    document.querySelector('#clickme').addEventListener('click',buttonClicked);
+    document.querySelector('#aDiv').addEventListener('click',buttonClicked);
+}
