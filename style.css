@@ -1,1 +1,22 @@
 
+
+
+
+
+
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {body {background-color: #544f4a;}}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {body {background-color: #544f4a;}}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {body {background-color: #544f4a;}}
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {body {background-color: #544f4a;}}
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {body {background-color: #544f4a;}}

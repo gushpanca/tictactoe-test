@@ -3,7 +3,7 @@ var turn = turn;
 
 function onLoad(){
     document.querySelector('#clickme').addEventListener('click',pickTurn);
-    document.querySelector('#aDiv').addEventListener('click',pickTurn);
+    //document.querySelector('#aDiv').addEventListener('click',pickTurn);
 }
 
 function pickTurn(event){
@@ -11,3 +11,4 @@ function pickTurn(event){
         alert ("X was chosen");
     }
 }
+
